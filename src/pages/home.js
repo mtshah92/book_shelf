@@ -19,8 +19,12 @@ export const Home = () => {
           return (
             <div key={item.id} className="book-list">
               <img src={item.img} alt={item.title} width="150" height="150" />
-              <p>Title: {item.title}</p>
-              <p>Author: {item.author}</p>
+              <p>
+                Title: <b>{item.title}</b>
+              </p>
+              <p>
+                Author:<b> {item.author}</b>
+              </p>
               <select
                 name="category"
                 id="category"
@@ -43,8 +47,12 @@ export const Home = () => {
           return (
             <div key={item.id} className="book-list">
               <img src={item.img} alt={item.title} width="150" height="150" />
-              <p>Title: {item.title}</p>
-              <p>Author: {item.author}</p>
+              <p>
+                Title: <b>{item.title}</b>
+              </p>
+              <p>
+                Author: <b>{item.author}</b>
+              </p>
               <select
                 name="category"
                 id="category"
@@ -67,8 +75,12 @@ export const Home = () => {
           return (
             <div key={item.id} className="book-list">
               <img src={item.img} alt={item.title} width="150" height="150" />
-              <p>Title: {item.title}</p>
-              <p>Author: {item.author}</p>
+              <p>
+                Title:<b> {item.title}</b>
+              </p>
+              <p>
+                Author: <b>{item.author}</b>
+              </p>
               <select
                 name="category"
                 id="category"

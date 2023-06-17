@@ -23,9 +23,15 @@ export const Search = () => {
         return (
           <div key={item.id} className="search-list">
             <img src={item.img} alt={item.title} width="150" height="150" />
-            <p>Title: {item.title}</p>
-            <p>Author: {item.author}</p>
-            <p>category: {item.category}</p>
+            <p>
+              Title: <b>{item.title}</b>
+            </p>
+            <p>
+              Author:<b>{item.author}</b>{" "}
+            </p>
+            <p>
+              category: <b>{item.category}</b>
+            </p>
             <select
               name="category"
               id="category"
